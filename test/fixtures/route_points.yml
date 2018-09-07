@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  route: one
+  city: one
+  point_type: 1
+  point_at: 2018-09-06 23:09:48
+
+two:
+  route: two
+  city: two
+  point_type: 1
+  point_at: 2018-09-06 23:09:48
