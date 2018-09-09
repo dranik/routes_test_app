@@ -24,7 +24,7 @@ rails s
 
 For the sake of convenience RailsAdmin is installed, so you can do basic CRUD manually on things.
 
-###Service class
+### Service class
 The real purpose of this app is to showcase RouteSearchService.
 
 To run it go to the console:
