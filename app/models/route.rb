@@ -6,6 +6,18 @@ class Route < ApplicationRecord
   validates :seats, inclusion: 1..10
   validate :validate_points
 
+  def start_point
+    route_points.where(point_type: :start_point).take
+  end
+
+  def finish_point
+    route_points.where(point_type: :finish_point).take
+  end
+
+  def intermediates
+    route_points.where(point_type: :intermediate)
+  end
+
   private
 
   def validate_points
